@@ -11,7 +11,7 @@ NER_pipeline = pipeline("ner", grouped_entities=True)
 st.title('NLP: Tasks Using Pipeline')
 
 user_input = st.text_area('Enter text:')
-task = st.selectbox('Choose a task:', ['Sentiment Analysis', 'Text Generation', 'Translation', 'Summarization', 'Named Entity Recognition'])
+task = st.selectbox('Choose a task:', ['Sentiment Analysis', 'Text Generation', 'Text Correction', 'Summarization', 'Named Entity Recognition'])
 
 if st.button('Submit'):
     if task == 'Sentiment Analysis':
