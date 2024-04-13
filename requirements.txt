@@ -1,8 +1,7 @@
-streamlit 
+streamlit==1.33.0
 pandas 
 nltk 
 wordcloud
 sacremoses
 transformers
 tensorflow
-pytorch
