@@ -1,6 +1,0 @@
-streamlit
-transformers
-tensorflow
-tf-keras
-sentencepiece
-sacremoses
