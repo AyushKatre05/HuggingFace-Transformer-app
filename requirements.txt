@@ -5,3 +5,4 @@ wordcloud
 sacremoses
 transformers
 tensorflow
+tf-keras
